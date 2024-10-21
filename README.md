@@ -127,7 +127,7 @@ The diagram below shows the attributes and method signatures referred to in step
 
 Create methods <code>countWindowsInBuilding()</code> and <code>countRoomsInBuilding()</code>. Test in <code>main</code> that your methods work as expected. If not, debug your program. 
 
-3.k create another static method in <code>Main</code> called <code>isNormal()</code> that takes an object of type <code>Building</code> as argument. The method should return true if the building's number of floors is greater than or equal to it's number of rooms. If not it should return false. Test this method from your <code>main</code> using both a normal and a anormal building. 
+3.k create another static method in <code>Main</code> called <code>isNormal()</code> that takes an object of type <code>Building</code> as argument. The method should return true if the building's number of floors is less than or equal to it's number of rooms. If not it should return false. Test this method from your <code>main</code> using both a normal and a anormal building. 
 
 ---
 
